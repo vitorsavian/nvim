@@ -79,6 +79,11 @@ _G.packer_plugins = {
     path = "/home/vraykan/.local/share/nvim/site/pack/packer/start/nightfox.nvim",
     url = "https://github.com/EdenEast/nightfox.nvim"
   },
+  ["nvim-treesitter"] = {
+    loaded = true,
+    path = "/home/vraykan/.local/share/nvim/site/pack/packer/start/nvim-treesitter",
+    url = "https://github.com/nvim-treesitter/nvim-treesitter"
+  },
   ["packer.nvim"] = {
     loaded = true,
     path = "/home/vraykan/.local/share/nvim/site/pack/packer/start/packer.nvim",
