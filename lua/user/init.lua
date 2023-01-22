@@ -1,2 +1,2 @@
 require("user.remap")
-print("Hello user")
+require("user.packer")
