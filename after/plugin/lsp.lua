@@ -21,4 +21,15 @@ lsp.configure('sumneko_lua', {
     }
 })
 
+lsp.configure('gopls', {
+    formatters = {
+        goimports = {
+            command = "goimports",
+            args = {"-local", vim.fn.expand("<afile>")},
+            format_on_save = true,
+        }
+    },
+    format_options = { goimports = true }
+})
+
 lsp.setup()

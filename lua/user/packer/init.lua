@@ -47,6 +47,7 @@ return require('packer').startup(function(use)
 	  }
   }
 
+  -- Tree
   use {
 	  'nvim-tree/nvim-tree.lua',
 	  requires = {
