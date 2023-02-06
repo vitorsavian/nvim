@@ -6,10 +6,8 @@ vim.cmd [[packadd packer.nvim]]
 return require('packer').startup(function(use)
   -- Packer can manage itself
   use 'wbthomason/packer.nvim'
-  
   -- Colorthemes
   use "EdenEast/nightfox.nvim"
-  
   -- Telescope
   use {
 	  'nvim-telescope/telescope.nvim', tag = '0.1.1',
@@ -61,5 +59,6 @@ return require('packer').startup(function(use)
 	  requires = { "nvim-lua/plenary.nvim" },
   })
 
-  user "nvim-lualine/lualine.nvim"
+  use "nvim-lualine/lualine.nvim"
+
 end)
