@@ -6,10 +6,12 @@ local code_actions = null_ls.builtins.code_actions
 
 local sources = {
     code_actions.eslint_d,
+    diagnostics.cmake_lint,
     diagnostics.golangci_lint,
     diagnostics.cpplint,
     diagnostics.protolint,
     diagnostics.pycodestyle,
+    formatting.clang_format,
     formatting.prettier,
     formatting.clang_format,
     formatting.black,
