@@ -8,7 +8,7 @@ vim.opt.termguicolors = true
 -- empty setup using defaults
 require("nvim-tree").setup({
     view = {
-        width = 50,
+        width = 40,
     },
     diagnostics = {
         enable = true,
